@@ -18,8 +18,24 @@ samuel install <skill-name>
 
 | Name | Description |
 | --- | --- |
+| [`auto`](auto/) | Autonomous AI coding loop (Ralph Wiggum methodology). |
+| [`cleanup-project`](cleanup-project/) | Project cleanup and pruning workflow. |
+| [`code-review`](code-review/) | Pre-commit code quality review workflow. |
+| [`commit-message`](commit-message/) | Generate descriptive commit messages by analyzing git diffs. |
+| [`create-prd`](create-prd/) | Product Requirements Document (PRD) creation workflow. |
+| [`create-rfd`](create-rfd/) | Request for Discussion (RFD) creation workflow. |
+| [`create-skill`](create-skill/) | Agent Skill creation workflow. |
+| [`dependency-update`](dependency-update/) | Safe dependency update workflow. |
+| [`document-work`](document-work/) | Work documentation and pattern capture workflow. |
+| [`generate-agents-md`](generate-agents-md/) | Cross-tool compatibility workflow. |
+| [`generate-tasks`](generate-tasks/) | Task generation and breakdown workflow. |
 | [`go-guide`](go-guide/) | Go language guardrails and patterns. |
 | [`react`](react/) | React 18+ framework guardrails and patterns. |
+| [`refactoring`](refactoring/) | Technical debt remediation and code restructuring workflow. |
+| [`security-audit`](security-audit/) | Security assessment workflow. |
+| [`sync-claude-md`](sync-claude-md/) | Sync per-folder CLAUDE.md and AGENTS.md files with context-aware content. |
+| [`testing-strategy`](testing-strategy/) | Test planning and coverage strategy workflow. |
+| [`troubleshooting`](troubleshooting/) | Debugging and problem-solving workflow. |
 
 The table grows one row per migrated skill; the full plan for fanning out the remaining `samuelpkg/samuel-*` skill repos is tracked in [RFD 0012](https://github.com/samuelpkg/samuel/blob/main/docs/rfd/0012.md).
 
