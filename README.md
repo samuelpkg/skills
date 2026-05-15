@@ -37,7 +37,7 @@ samuel install <skill-name>
 | [`flask`](flask/) | Flask framework guardrails, patterns, and best practices for AI-assisted development. |
 | [`flutter`](flutter/) | Flutter framework guardrails, patterns, and best practices for AI-assisted development. |
 | [`gin`](gin/) | Gin framework guardrails, patterns, and best practices for AI-assisted development. |
-| [`go-guide`](go-guide/) | Go language guardrails and patterns. |
+| [`go-guide`](go-guide/) | Go language guardrails, patterns, and best practices for AI-assisted development. |
 | [`hanami`](hanami/) | Hanami 2+ framework guardrails, patterns, and best practices for AI-assisted development. |
 | [`html-css-guide`](html-css-guide/) | HTML and CSS guardrails, patterns, and best practices for AI-assisted development. |
 | [`java-guide`](java-guide/) | Java language guardrails, patterns, and best practices for AI-assisted development. |
@@ -52,7 +52,7 @@ samuel install <skill-name>
 | [`quarkus`](quarkus/) | Quarkus framework guardrails, patterns, and best practices for AI-assisted development. |
 | [`r-guide`](r-guide/) | R language guardrails, patterns, and best practices for AI-assisted development. |
 | [`rails`](rails/) | Rails 7+ framework guardrails, patterns, and best practices for AI-assisted development. |
-| [`react`](react/) | React 18+ framework guardrails and patterns. |
+| [`react`](react/) | React 18+ framework guardrails, patterns, and best practices for AI-assisted development. |
 | [`rocket`](rocket/) | Rocket framework guardrails, patterns, and best practices for AI-assisted development. |
 | [`ruby-guide`](ruby-guide/) | Ruby language guardrails, patterns, and best practices for AI-assisted development. |
 | [`rust-guide`](rust-guide/) | Rust guardrails, patterns, and best practices for AI-assisted development. |
