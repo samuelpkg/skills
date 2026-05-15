@@ -16,9 +16,12 @@ samuel install <skill-name>
 
 ## Skills index
 
-_Seed migrations are tracked separately. The first skill subtrees will land in follow-up PRs._
+| Name | Description |
+| --- | --- |
+| [`go-guide`](go-guide/) | Go language guardrails and patterns. |
+| [`react`](react/) | React 18+ framework guardrails and patterns. |
 
-When the migration is in progress, this section will list each migrated skill with a one-line description and a link to its subdirectory.
+The table grows one row per migrated skill; the full plan for fanning out the remaining `samuelpkg/samuel-*` skill repos is tracked in [RFD 0012](https://github.com/samuelpkg/samuel/blob/main/docs/rfd/0012.md).
 
 ## Contributing a new skill
 

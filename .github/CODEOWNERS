@@ -2,3 +2,7 @@
 # canonical .github/ path. Source of truth is /CODEOWNERS at the
 # repo root — keep them in sync.
 *                @ar4mirez
+
+# Per-subpath ownership
+/go-guide/      @ar4mirez
+/react/         @ar4mirez

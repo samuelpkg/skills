@@ -8,6 +8,6 @@
 # first migrated subtree's PR is the right place to add its line —
 # the seed PR carries the precedent.
 #
-# Example shape (commented out until the first migration lands):
-# /go-guide/      @ar4mirez
-# /react/         @ar4mirez
+# Per-subpath ownership: each migrated skill adds one line here as it lands.
+/go-guide/      @ar4mirez
+/react/         @ar4mirez
