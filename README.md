@@ -18,8 +18,28 @@ samuel install <skill-name>
 
 | Name | Description |
 | --- | --- |
+| [`assembly-guide`](assembly-guide/) | Assembly language guardrails, patterns, and best practices for AI-assisted development. |
+| [`cpp-guide`](cpp-guide/) | C/C++ language guardrails, patterns, and best practices for AI-assisted development. |
+| [`csharp-guide`](csharp-guide/) | C# language guardrails, patterns, and best practices for AI-assisted development. |
+| [`cuda-guide`](cuda-guide/) | CUDA/GPU computing guardrails, patterns, and best practices for AI-assisted development. |
+| [`dart-guide`](dart-guide/) | Dart language guardrails, patterns, and best practices for AI-assisted development. |
 | [`go-guide`](go-guide/) | Go language guardrails and patterns. |
+| [`html-css-guide`](html-css-guide/) | HTML and CSS guardrails, patterns, and best practices for AI-assisted development. |
+| [`java-guide`](java-guide/) | Java language guardrails, patterns, and best practices for AI-assisted development. |
+| [`kotlin-guide`](kotlin-guide/) | Kotlin language guardrails, patterns, and best practices for AI-assisted development. |
+| [`lua-guide`](lua-guide/) | Lua language guardrails, patterns, and best practices for AI-assisted development. |
+| [`php-guide`](php-guide/) | PHP language guardrails, patterns, and best practices for AI-assisted development. |
+| [`python-guide`](python-guide/) | Python guardrails, patterns, and best practices for AI-assisted development. |
+| [`r-guide`](r-guide/) | R language guardrails, patterns, and best practices for AI-assisted development. |
 | [`react`](react/) | React 18+ framework guardrails and patterns. |
+| [`ruby-guide`](ruby-guide/) | Ruby language guardrails, patterns, and best practices for AI-assisted development. |
+| [`rust-guide`](rust-guide/) | Rust guardrails, patterns, and best practices for AI-assisted development. |
+| [`shell-guide`](shell-guide/) | Shell/Bash scripting guardrails, patterns, and best practices for AI-assisted development. |
+| [`solidity-guide`](solidity-guide/) | Solidity/Ethereum guardrails, patterns, and best practices for AI-assisted development. |
+| [`sql-guide`](sql-guide/) | SQL language guardrails, patterns, and best practices for AI-assisted development. |
+| [`swift-guide`](swift-guide/) | Swift language guardrails, patterns, and best practices for AI-assisted development. |
+| [`typescript-guide`](typescript-guide/) | TypeScript/JavaScript guardrails, patterns, and best practices for AI-assisted development. |
+| [`zig-guide`](zig-guide/) | Zig language guardrails, patterns, and best practices for AI-assisted development. |
 
 The table grows one row per migrated skill; the full plan for fanning out the remaining `samuelpkg/samuel-*` skill repos is tracked in [RFD 0012](https://github.com/samuelpkg/samuel/blob/main/docs/rfd/0012.md).
 
