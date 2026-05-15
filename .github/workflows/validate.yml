@@ -1,0 +1,85 @@
+name: validate
+
+on:
+  pull_request:
+    paths:
+      - "**/SKILL.md"
+      - "**/samuel-plugin.toml"
+      - ".github/workflows/validate.yml"
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  manifests:
+    name: manifest schema check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run validator
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Walks every top-level subdirectory that contains a
+          # samuel-plugin.toml + SKILL.md pair (the shape one skill
+          # subpath must have) and runs a lightweight schema check:
+          #   - TOML parses
+          #   - required keys present: name, version, kind, summary
+          #   - kind == "skill" (this monorepo is skill-tier only)
+          #   - the SKILL.md frontmatter `name:` matches the manifest
+          #   - the subdirectory name matches the manifest `name`
+          #
+          # The full schema lives in the framework; this check is the
+          # PR-time precondition before a registry follow-up PR lands.
+          # See https://github.com/samuelpkg/samuel/blob/main/docs/plugin-authors/manifest.md.
+          python3 - <<'PY'
+          import os, re, sys, tomllib
+
+          root = os.getcwd()
+          failures = []
+          checked  = 0
+          for entry in sorted(os.listdir(root)):
+              sub = os.path.join(root, entry)
+              if entry.startswith(".") or not os.path.isdir(sub):
+                  continue
+              manifest = os.path.join(sub, "samuel-plugin.toml")
+              skill    = os.path.join(sub, "SKILL.md")
+              if not (os.path.isfile(manifest) and os.path.isfile(skill)):
+                  continue
+              checked += 1
+              try:
+                  with open(manifest, "rb") as fh:
+                      m = tomllib.load(fh)
+              except Exception as exc:
+                  failures.append(f"{entry}: invalid TOML: {exc}")
+                  continue
+              for key in ("name", "version", "kind", "summary"):
+                  if key not in m:
+                      failures.append(f"{entry}: manifest missing required key `{key}`")
+              if m.get("kind") and m.get("kind") != "skill":
+                  failures.append(f"{entry}: kind must be \"skill\" in this monorepo (got {m.get('kind')!r})")
+              if m.get("name") and m.get("name") != entry:
+                  failures.append(f"{entry}: manifest name {m['name']!r} must match subdirectory")
+              with open(skill, "r", encoding="utf-8") as fh:
+                  body = fh.read()
+              fm_match = re.match(r"---\n(.*?)\n---", body, re.DOTALL)
+              if not fm_match:
+                  failures.append(f"{entry}: SKILL.md missing YAML frontmatter")
+                  continue
+              fm = fm_match.group(1)
+              name_in_fm = re.search(r"^name:\s*(.+?)\s*$", fm, re.MULTILINE)
+              if not name_in_fm:
+                  failures.append(f"{entry}: SKILL.md frontmatter missing `name:`")
+                  continue
+              if m.get("name") and name_in_fm.group(1).strip().strip('"') != m["name"]:
+                  failures.append(f"{entry}: SKILL.md name {name_in_fm.group(1)!r} != manifest name {m['name']!r}")
+          print(f"validate: checked {checked} skill subpath(s)")
+          if failures:
+              print("validate: failures:")
+              for f in failures:
+                  print(f"  - {f}")
+              sys.exit(1)
+          PY

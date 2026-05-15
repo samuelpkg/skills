@@ -1,0 +1,13 @@
+# Default owner — applies to top-level files and any subtree without
+# a more specific rule. Maintainers of this entry approve schema-level
+# changes (manifest contract, registry-integration plumbing, repo-wide
+# CI). Per-skill subtrees should add their own line below as they land.
+*                @ar4mirez
+
+# Per-subpath ownership lands here as each skill migrates in. The
+# first migrated subtree's PR is the right place to add its line —
+# the seed PR carries the precedent.
+#
+# Example shape (commented out until the first migration lands):
+# /go-guide/      @ar4mirez
+# /react/         @ar4mirez

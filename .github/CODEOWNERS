@@ -1,0 +1,4 @@
+# Mirror of the repo-root CODEOWNERS so GitHub picks it up from the
+# canonical .github/ path. Source of truth is /CODEOWNERS at the
+# repo root — keep them in sync.
+*                @ar4mirez
