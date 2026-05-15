@@ -33,3 +33,37 @@
 /swift-guide/                   @ar4mirez
 /typescript-guide/              @ar4mirez
 /zig-guide/                     @ar4mirez
+
+# Added by RFD 0012 framework batch
+/actix-web/                     @ar4mirez
+/android-compose/               @ar4mirez
+/aspnet-core/                   @ar4mirez
+/axum/                          @ar4mirez
+/blazor/                        @ar4mirez
+/dart-frog/                     @ar4mirez
+/django/                        @ar4mirez
+/echo/                          @ar4mirez
+/express/                       @ar4mirez
+/fastapi/                       @ar4mirez
+/fiber/                         @ar4mirez
+/flask/                         @ar4mirez
+/flutter/                       @ar4mirez
+/gin/                           @ar4mirez
+/hanami/                        @ar4mirez
+/ktor/                          @ar4mirez
+/laravel/                       @ar4mirez
+/micronaut/                     @ar4mirez
+/nextjs/                        @ar4mirez
+/quarkus/                       @ar4mirez
+/rails/                         @ar4mirez
+/rocket/                        @ar4mirez
+/shelf/                         @ar4mirez
+/sinatra/                       @ar4mirez
+/spring-boot-java/              @ar4mirez
+/spring-boot-kotlin/            @ar4mirez
+/swiftui/                       @ar4mirez
+/symfony/                       @ar4mirez
+/uikit/                         @ar4mirez
+/unity/                         @ar4mirez
+/vapor/                         @ar4mirez
+/wordpress/                     @ar4mirez
