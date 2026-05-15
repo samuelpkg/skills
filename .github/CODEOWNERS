@@ -6,3 +6,25 @@
 # Per-subpath ownership
 /go-guide/      @ar4mirez
 /react/         @ar4mirez
+
+# Added by RFD 0012 language batch
+/assembly-guide/                @ar4mirez
+/cpp-guide/                     @ar4mirez
+/csharp-guide/                  @ar4mirez
+/cuda-guide/                    @ar4mirez
+/dart-guide/                    @ar4mirez
+/html-css-guide/                @ar4mirez
+/java-guide/                    @ar4mirez
+/kotlin-guide/                  @ar4mirez
+/lua-guide/                     @ar4mirez
+/php-guide/                     @ar4mirez
+/python-guide/                  @ar4mirez
+/r-guide/                       @ar4mirez
+/ruby-guide/                    @ar4mirez
+/rust-guide/                    @ar4mirez
+/shell-guide/                   @ar4mirez
+/solidity-guide/                @ar4mirez
+/sql-guide/                     @ar4mirez
+/swift-guide/                   @ar4mirez
+/typescript-guide/              @ar4mirez
+/zig-guide/                     @ar4mirez
