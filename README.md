@@ -19,6 +19,45 @@ samuel install <skill-name>
 | Name | Description |
 | --- | --- |
 | [`assembly-guide`](assembly-guide/) | Assembly language guardrails, patterns, and best practices for AI-assisted development. |
+| [`auto`](auto/) | Autonomous AI coding loop (Ralph Wiggum methodology). |
+| [`cleanup-project`](cleanup-project/) | Project cleanup and pruning workflow. |
+| [`code-review`](code-review/) | Pre-commit code quality review workflow. |
+| [`commit-message`](commit-message/) | Generate descriptive commit messages by analyzing git diffs. |
+| [`cpp-guide`](cpp-guide/) | C/C++ language guardrails, patterns, and best practices for AI-assisted development. |
+| [`create-prd`](create-prd/) | Product Requirements Document (PRD) creation workflow. |
+| [`create-rfd`](create-rfd/) | Request for Discussion (RFD) creation workflow. |
+| [`create-skill`](create-skill/) | Agent Skill creation workflow. |
+| [`csharp-guide`](csharp-guide/) | C# language guardrails, patterns, and best practices for AI-assisted development. |
+| [`cuda-guide`](cuda-guide/) | CUDA/GPU computing guardrails, patterns, and best practices for AI-assisted development. |
+| [`dart-guide`](dart-guide/) | Dart language guardrails, patterns, and best practices for AI-assisted development. |
+| [`dependency-update`](dependency-update/) | Safe dependency update workflow. |
+| [`document-work`](document-work/) | Work documentation and pattern capture workflow. |
+| [`generate-agents-md`](generate-agents-md/) | Cross-tool compatibility workflow. |
+| [`generate-tasks`](generate-tasks/) | Task generation and breakdown workflow. |
+| [`go-guide`](go-guide/) | Go language guardrails, patterns, and best practices for AI-assisted development. |
+| [`html-css-guide`](html-css-guide/) | HTML and CSS guardrails, patterns, and best practices for AI-assisted development. |
+| [`java-guide`](java-guide/) | Java language guardrails, patterns, and best practices for AI-assisted development. |
+| [`kotlin-guide`](kotlin-guide/) | Kotlin language guardrails, patterns, and best practices for AI-assisted development. |
+| [`lua-guide`](lua-guide/) | Lua language guardrails, patterns, and best practices for AI-assisted development. |
+| [`php-guide`](php-guide/) | PHP language guardrails, patterns, and best practices for AI-assisted development. |
+| [`python-guide`](python-guide/) | Python guardrails, patterns, and best practices for AI-assisted development. |
+| [`r-guide`](r-guide/) | R language guardrails, patterns, and best practices for AI-assisted development. |
+| [`react`](react/) | React 18+ framework guardrails, patterns, and best practices for AI-assisted development. |
+| [`refactoring`](refactoring/) | Technical debt remediation and code restructuring workflow. |
+| [`ruby-guide`](ruby-guide/) | Ruby language guardrails, patterns, and best practices for AI-assisted development. |
+| [`rust-guide`](rust-guide/) | Rust guardrails, patterns, and best practices for AI-assisted development. |
+| [`security-audit`](security-audit/) | Security assessment workflow. |
+| [`shell-guide`](shell-guide/) | Shell/Bash scripting guardrails, patterns, and best practices for AI-assisted development. |
+| [`solidity-guide`](solidity-guide/) | Solidity/Ethereum guardrails, patterns, and best practices for AI-assisted development. |
+| [`sql-guide`](sql-guide/) | SQL language guardrails, patterns, and best practices for AI-assisted development. |
+| [`swift-guide`](swift-guide/) | Swift language guardrails, patterns, and best practices for AI-assisted development. |
+| [`sync-claude-md`](sync-claude-md/) | Sync per-folder CLAUDE.md and AGENTS.md files with context-aware content. |
+| [`testing-strategy`](testing-strategy/) | Test planning and coverage strategy workflow. |
+| [`troubleshooting`](troubleshooting/) | Debugging and problem-solving workflow. |
+| [`typescript-guide`](typescript-guide/) | TypeScript/JavaScript guardrails, patterns, and best practices for AI-assisted development. |
+| [`zig-guide`](zig-guide/) | Zig language guardrails, patterns, and best practices for AI-assisted development. |
+||||||| 53fee40
+| [`assembly-guide`](assembly-guide/) | Assembly language guardrails, patterns, and best practices for AI-assisted development. |
 | [`cpp-guide`](cpp-guide/) | C/C++ language guardrails, patterns, and best practices for AI-assisted development. |
 | [`csharp-guide`](csharp-guide/) | C# language guardrails, patterns, and best practices for AI-assisted development. |
 | [`cuda-guide`](cuda-guide/) | CUDA/GPU computing guardrails, patterns, and best practices for AI-assisted development. |
@@ -32,6 +71,12 @@ samuel install <skill-name>
 | [`python-guide`](python-guide/) | Python guardrails, patterns, and best practices for AI-assisted development. |
 | [`r-guide`](r-guide/) | R language guardrails, patterns, and best practices for AI-assisted development. |
 | [`react`](react/) | React 18+ framework guardrails and patterns. |
+| [`refactoring`](refactoring/) | Technical debt remediation and code restructuring workflow. |
+| [`security-audit`](security-audit/) | Security assessment workflow. |
+| [`sync-claude-md`](sync-claude-md/) | Sync per-folder CLAUDE.md and AGENTS.md files with context-aware content. |
+| [`testing-strategy`](testing-strategy/) | Test planning and coverage strategy workflow. |
+| [`troubleshooting`](troubleshooting/) | Debugging and problem-solving workflow. |
+||||||| 53fee40
 | [`ruby-guide`](ruby-guide/) | Ruby language guardrails, patterns, and best practices for AI-assisted development. |
 | [`rust-guide`](rust-guide/) | Rust guardrails, patterns, and best practices for AI-assisted development. |
 | [`shell-guide`](shell-guide/) | Shell/Bash scripting guardrails, patterns, and best practices for AI-assisted development. |

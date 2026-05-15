@@ -6,25 +6,22 @@
 # Per-subpath ownership
 /go-guide/      @ar4mirez
 /react/         @ar4mirez
+||||||| 53fee40
 
-# Added by RFD 0012 language batch
-/assembly-guide/                @ar4mirez
-/cpp-guide/                     @ar4mirez
-/csharp-guide/                  @ar4mirez
-/cuda-guide/                    @ar4mirez
-/dart-guide/                    @ar4mirez
-/html-css-guide/                @ar4mirez
-/java-guide/                    @ar4mirez
-/kotlin-guide/                  @ar4mirez
-/lua-guide/                     @ar4mirez
-/php-guide/                     @ar4mirez
-/python-guide/                  @ar4mirez
-/r-guide/                       @ar4mirez
-/ruby-guide/                    @ar4mirez
-/rust-guide/                    @ar4mirez
-/shell-guide/                   @ar4mirez
-/solidity-guide/                @ar4mirez
-/sql-guide/                     @ar4mirez
-/swift-guide/                   @ar4mirez
-/typescript-guide/              @ar4mirez
-/zig-guide/                     @ar4mirez
+# Added by RFD 0012 workflow batch
+/auto/                          @ar4mirez
+/cleanup-project/               @ar4mirez
+/code-review/                   @ar4mirez
+/commit-message/                @ar4mirez
+/create-prd/                    @ar4mirez
+/create-rfd/                    @ar4mirez
+/create-skill/                  @ar4mirez
+/dependency-update/             @ar4mirez
+/document-work/                 @ar4mirez
+/generate-agents-md/            @ar4mirez
+/generate-tasks/                @ar4mirez
+/refactoring/                   @ar4mirez
+/security-audit/                @ar4mirez
+/sync-claude-md/                @ar4mirez
+/testing-strategy/              @ar4mirez
+/troubleshooting/               @ar4mirez
