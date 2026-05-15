@@ -6,6 +6,24 @@
 # Per-subpath ownership
 /go-guide/      @ar4mirez
 /react/         @ar4mirez
+||||||| 53fee40
+||||||| c5a1062# Added by RFD 0012 workflow batch
+/auto/                          @ar4mirez
+/cleanup-project/               @ar4mirez
+/code-review/                   @ar4mirez
+/commit-message/                @ar4mirez
+/create-prd/                    @ar4mirez
+/create-rfd/                    @ar4mirez
+/create-skill/                  @ar4mirez
+/dependency-update/             @ar4mirez
+/document-work/                 @ar4mirez
+/generate-agents-md/            @ar4mirez
+/generate-tasks/                @ar4mirez
+/refactoring/                   @ar4mirez
+/security-audit/                @ar4mirez
+/sync-claude-md/                @ar4mirez
+/testing-strategy/              @ar4mirez
+/troubleshooting/               @ar4mirez
 
 # Added by RFD 0012 framework batch
 /actix-web/                     @ar4mirez
