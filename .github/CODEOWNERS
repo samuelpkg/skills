@@ -6,6 +6,7 @@
 # Per-subpath ownership
 /go-guide/      @ar4mirez
 /react/         @ar4mirez
+||||||| 53fee40
 
 # Added by RFD 0012 workflow batch
 /auto/                          @ar4mirez
